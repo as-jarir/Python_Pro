@@ -10,12 +10,12 @@ print('')#space
 print("||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print('')#space
 
-print('Here are 17 projects from Text Book. Execute them, look at the script and try at your own...')
+print('Here are 17 projects from Text Book. Execute them, take a look at the script and try at your own...')
 print('')#space
 print('1. Sum of two numbers.')
-print('')
-print('')
-print('')
+print('2. Pass-Fail identifier.')
+print('3. Age identifier.')
+print('4. Odd-Even Numbers identifier.')
 print('')
 print('')
 print('')
@@ -31,4 +31,5 @@ print('')
 print('')
 print('')
 print('')#space
-proj = input('Enter Selection : ')
+
+proj = input('Enter Selection : ')ll
