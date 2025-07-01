@@ -33,5 +33,8 @@ print('15. Multiple writer using while loop.')
 print('16. 1+2+3+.....+100 ,Sum counter.')
 print('17. leaving number writer.')
 print('')#space
+print('18. Show script of this code.')
+print('')#space
+print('')#space
 
 proj = input('Enter Selection : ')
