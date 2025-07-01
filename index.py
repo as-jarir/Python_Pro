@@ -38,3 +38,36 @@ print('')#space
 print('')#space
 
 proj = input('Enter Selection : ')
+print("")#space
+
+match proj:
+    case "1":
+        print('Sum of two numbers.')
+        print("")
+        print('1. Execute the code.')
+        print('2. Show the script.')
+        print('')#space
+        chos1 = input('Insert your Option : ')
+
+        match chos1:
+            case "1":
+                num1 = int(input('Insert first number = '))
+                num2 = int(input('Insert second number = '))
+                print('')#space
+                result = num1 + num2
+
+                print('The sum of',num1,'and',num2,'is',result)
+            case "2":
+                code1 = """
+                num1 = int(input('Insert first number = '))
+                num2 = int(input('Insert second number = '))
+                print('')#space
+                result = num1 + num2
+
+                print('The sum of',num1,'and',num2,'is',result)
+                """
+                print(code1)
+    case "2":
+
+        print('upcoming')
+
