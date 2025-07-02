@@ -104,4 +104,65 @@ match proj:
                     print('You have failed.')
                     """
                 print(code2)
-      
+
+    case "3":
+        print('Age identifier.')
+        print('')#space
+        print('1. Execute the code.')
+        print('2. Show the script.')
+        print('')#space
+        chos3 = input('Insert your Option : ')
+        print('')
+
+        match chos3:
+            case "1":
+                print("Age identifier.3")
+                print('')#space
+
+                age = int(input('Insert your age here = '))
+                print('')#space
+                if age >= 18:
+                    print('You are eligible for voting.')
+                else:
+                    print('You are not eligible for voting.')
+
+            case "2":
+                code3 = """
+                    age = int(input('Insert your age here = '))
+                print('')#space
+                if age >= 18:
+                    print('You are eligible for voting.')
+                else:
+                    print('You are not eligible for voting.')
+                    """
+                print(code3)
+    case "4":
+        print('Odd-Even Numbers identifier.')
+        print('')#space
+        print('1. Execute the code.')
+        print('2. Show the script.')
+        print('')#space
+        chos4 = input('Insert your Option : ')
+        print('')
+
+        match chos4:
+            case "1":
+                print('Odd-Even Numbers identifier.')
+                print('')#space
+
+                num = int(input('Insert your number here = '))
+                print('')#space
+                if num%2!= 0:
+                    print("It's an odd number.")  #You can use double cout ("") inside print syntax. if you use single cout (') in sentence.
+                else:
+                    print("It's and Even numbeer.")
+            case "2":
+                code4 = """
+                    num = int(input('Insert your number here = '))
+                print('')#space
+                if num%2!= 0:
+                    print("It's an odd number.")  #You can use double cout ("").
+                else:
+                    print("It's and Even numbeer.")
+                    """
+                print(code4)
