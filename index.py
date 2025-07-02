@@ -48,9 +48,12 @@ match proj:
         print('2. Show the script.')
         print('')#space
         chos1 = input('Insert your Option : ')
+        print('')
 
         match chos1:
             case "1":
+                print('Sum of two numbers.')
+                print('')
                 num1 = int(input('Insert first number = '))
                 num2 = int(input('Insert second number = '))
                 print('')#space
@@ -69,5 +72,36 @@ match proj:
                 print(code1)
     case "2":
 
-        print('upcoming')
+        print('Pass-Fail identifier.')
+        print('')#space
+        print('1. Execute the code.')
+        print('2. Show the script.')
+        print('')#space
+        chos2 = input('Insert your Option : ')
+        print('')
 
+        match chos2:
+            case "1":
+                print("Pass-Fail identifier")
+                print('')#space
+                mark = int(input('Enter your mark here = '))
+                
+                if mark >= 40:
+                    print('')#space
+                    print('You have passed.')
+                if mark < 40:
+                    print('')#space
+                    print('You have failed.')
+            case "2":
+                code2 = """
+                    mark = int(input('Enter your mark here = '))
+                
+                if mark >= 40:
+                    print('')#space
+                    print('You have passed.')
+                if mark < 40:
+                    print('')#space
+                    print('You have failed.')
+                    """
+                print(code2)
+      
