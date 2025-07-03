@@ -166,3 +166,88 @@ match proj:
                     print("It's and Even numbeer.")
                     """
                 print(code4)
+    case "5":
+        print('Leap year indentifier.')
+        print('')#space
+        print('1. Execute the code.')
+        print('2. Show the script.')
+        print('')#space
+        chos5 = input('Insert your Option : ')
+        print('')
+
+        match chos5:
+            case "1":
+                print('Leap year identifier.')
+                print('')#space
+
+                year = int(input('Insert the year : '))
+                print('')#space
+
+                if (year%400 == 0 or (year%100 != 0 and year%4 == 0)):
+                    print("It's a leap year.")
+                else :
+                    print("It's not a leap year")
+
+            case "2":
+                code5 = """
+                    year = int(input('Insert the year : '))
+                print('')#space
+
+                if (year%400 == 0 or (year%100 != 0 and year%4 == 0)):
+                    print("It's a leap year.")
+                else :
+                    print("It's not a leap year")
+                    """
+                print(code5)
+
+    case "6":
+        print('Meter to Feet and Feet to Meter converter.')
+        print('')#space
+        print('1. Execute the code.')
+        print('2. Show the script.')
+        print('')#space
+        chos6 = input('Insert your Option : ')
+        print('')
+
+        match chos6:
+            case "1":
+                print("Meter to Feet and Feet to Meter converter.")
+                print('')#space
+
+                print('Insert 1 for Feet to Meter.')
+                print('Insert 2 for Meter to feet')
+                print('')#space
+
+                choice = int(input('insert your option = '))
+                print('')#space
+
+                if choice == 1:
+                    feet = float(input('Enter your feet = '))
+                    result1 = feet/0.3048
+                    print(result1)
+                elif choice == 2:
+                    meter = float(input('Enter your meter = '))
+                    result2 = meter*3.281
+                    print(result2)
+
+            case "2":
+                code6 = """
+                    print('Insert 1 for Feet to Meter.')
+                print('Insert 2 for Meter to feet')
+                print('')#space
+
+                choice = int(input('insert your option = '))
+                print('')#space
+
+                if choice == 1:
+                    feet = float(input('Enter your feet = '))
+                    result1 = feet/0.3048
+                    print(result1)
+                elif choice == 2:
+                    meter = float(input('Enter your meter = '))
+                    result2 = meter*3.281
+                    print(result2)
+                    """
+                print(code6)
+                print('')#space
+                print('You can also code the book script. Just open book.')
