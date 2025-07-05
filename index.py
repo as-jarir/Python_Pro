@@ -251,3 +251,40 @@ match proj:
                 print(code6)
                 print('')#space
                 print('You can also code the book script. Just open book.')
+
+    case "7":
+        print('Positive, negative and zero identifier.')
+        print('')#space
+        print('1. Execute the code.')
+        print('2. Show the script.')
+        print('')#space
+        chos7 = input('Insert your Option : ')
+        print('')
+
+        match chos7:
+            case "1":
+                print('Positive, negative and zero identifier.')
+                print('')#space
+
+                num = int(input('Insert your number = '))
+                print('')#space
+                if num < 0:
+                    print("It's a negative number.")
+                elif num == 0 :
+                    print("It's a zero")
+                else:
+                    print("It's a Positive number")  
+
+            case "2":
+                code7 = """
+                    num = int(input('Insert your number = '))
+                print('')#space
+                if num < 0:
+                    print("It's a negative number.")
+                elif num == 0 :
+                    print("It's a zero")
+                else:
+                    print("It's a Positive number")
+                    """
+                print(code7)
+                print('You can also us ethe book code.')
