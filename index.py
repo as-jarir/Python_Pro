@@ -375,3 +375,44 @@ match proj:
                 print('')#space
                 print(code8_2)
 
+    case "9":
+        print('Largest number identifier.')
+        print('')#space
+        print('1. Execute the code.')
+        print('2. Show the script.')
+        print('')#space
+        chos9 = input('Insert your Option : ')
+        print('')
+
+        match chos9:
+            case "1":
+                print('Largest number identifier.')
+                print('')#space
+
+                num1 = float(input('Insert number 1 = '))
+                num2 = float(input('Insert number 2 = '))
+                num3 = float(input('Insert number 3 = '))
+                print('')#space
+
+                if (num1 >= num2) and (num1 >= num3):
+                    print(num1,'is largest.')
+                elif (num2 >= num1) and (num2 >= num3):
+                    print(num2,'is largest.')
+                else:
+                    print(num3,'is largest.')
+            case "2":
+                code9 = """
+                num1 = float(input('Insert number 1 = '))
+                num2 = float(input('Insert number 2 = '))
+                num3 = float(input('Insert number 3 = '))
+                print('')#space
+
+                if (num1 >= num2) and (num1 >= num3):
+                    print(num1,'is largest.')
+                elif (num2 >= num1) and (num2 >= num3):
+                    print(num2,'is largest.')
+                else:
+                    print(num3,'is largest.')
+                    """
+                print(code9)
+                
