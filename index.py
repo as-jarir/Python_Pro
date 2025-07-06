@@ -288,3 +288,90 @@ match proj:
                     """
                 print(code7)
                 print('You can also us ethe book code.')
+
+    case "8":
+        print('Vowel and Consonant identifier.')
+        print('')#space
+        print('1. Execute the code. (option 1)')
+        print('2. Execute the code. (Option 2)')
+        print('3. Show the script.')
+        print()
+        print('')#space
+        chos8 = input('Insert your Option : ')
+        print('')
+
+        match chos8:
+            case "1":
+                print('Vowel and Consonant identifier. (Option 1)')
+                print('')#space
+
+                char = input("Enter alphabet : ")
+                print('')#space
+
+                match char:
+                    case "a,A":
+                        print(char,' is a vowel.')
+                    case "e":
+                        print(char,' is a vowel.')
+                    case "i":
+                        print(char,' is a vowel.')
+                    case "o":
+                        print(char,' is a vowel.')
+                    case "u":
+                        print(char,' is a vowel.')
+                    case _:
+                        print(char,' is a consonant.')
+            case "2":
+                print('Vowel and Consonant identifier. (Option 2)')
+                print('')#space
+
+                char = input("Enter alphabet : ")
+                print('')#space
+                 
+                vowel = ['a','e','i','o','u','A','E','I','O','U']
+
+                if char in vowel:
+                    print(char," is a vowel.")
+                else:
+                    print(char," is a consonant.")
+            case "3":
+                
+                
+                code8_1 = """
+                    char = input("Enter alphabet : ")
+                print('')#space
+
+                match char:
+                    case "a,A":
+                        print(char,' is a vowel.')
+                    case "e":
+                        print(char,' is a vowel.')
+                    case "i":
+                        print(char,' is a vowel.')
+                    case "o":
+                        print(char,' is a vowel.')
+                    case "u":
+                        print(char,' is a vowel.')
+                    case _:
+                        print(char,' is a consonant.')
+                        """
+                
+                code8_2 = """
+                    char = input("Enter alphabet : ")
+                print('')#space
+                 
+                vowel = ['a','e','i','o','u','A','E','I','O','U']
+
+                if char in vowel:
+                    print(char," is a vowel.")
+                else:
+                    print(char," is a consonant.")
+                    """
+                print('Option 1 :')
+                print('')#space
+                print(code8_1)
+                print('')#space
+                print('option 2 :')
+                print('')#space
+                print(code8_2)
+
