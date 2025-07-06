@@ -415,4 +415,35 @@ match proj:
                     print(num3,'is largest.')
                     """
                 print(code9)
+    case "10":
+        print('Multiple presentesion writer. (5 times)')
+        print('')#space
+        print('1. Execute the code.')
+        print('2. Show the script.')
+        print('')#space
+        chos10 = input('Insert your Option : ')
+        print('')#space
+
+        match chos10:
+            case "1":
+                print('Multiple presentesion writer. (5 times)')
+                print('')#space
                 
+                word = str(input('Enter anything to write : '))
+                print('')#space
+                times = int(input("How many times you wanna write = "))
+                print('')#space
+                for i in range(times):
+                    print(word)
+
+            case "2":
+                code10 = """
+                    word = str(input('Enter anything to write : '))
+                print('')#space
+                times = int(input("How many times you wanna write = "))
+                print('')#space
+                for i in range(times):
+                    print(word)
+                    """
+                print(code10)
+                print('You can also use the book code.')
