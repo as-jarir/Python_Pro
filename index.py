@@ -416,7 +416,7 @@ match proj:
                     """
                 print(code9)
     case "10":
-        print('Multiple presentesion writer. (5 times)')
+        print('Multiple presentesion writer.')
         print('')#space
         print('1. Execute the code.')
         print('2. Show the script.')
@@ -426,7 +426,7 @@ match proj:
 
         match chos10:
             case "1":
-                print('Multiple presentesion writer. (5 times)')
+                print('Multiple presentesion writer.')
                 print('')#space
                 
                 word = str(input('Enter anything to write : '))
@@ -447,3 +447,84 @@ match proj:
                     """
                 print(code10)
                 print('You can also use the book code.')
+    case "11":
+        print('Word writer multiple time.')
+        print('')#space
+        print('This problem and the previous problem are same.')
+
+    case "12":
+        print('Odd-Even Number identifier between selected number.')
+        print('')#space
+        print('1. Execute the code.')
+        print('2. Show the script.')
+        print('')#space
+        chos12 = input('Insert your Option : ')
+        print('')#space
+
+        match chos12:
+            case "1":
+                print('Odd-Even Number identifier between selected number.')
+                print('')#space
+
+                print('Press 1 to find Even Number.')
+                print('press 2 to find Odd Number.')
+                print('')#space'
+
+                chos = input('Insert your option = ')
+                print('')#space
+
+                match chos:
+                    case "1":
+                        print('Even number finder.')
+                        print("")#space
+
+                        here = int(input('From = '))
+                        to = int(input('To = '))
+                        to += 1
+                        print('')#space
+
+                        for i in range(here,to):
+                            if (i % 2 == 0):
+                                print(i)
+                    
+                    case "2":
+                        print('Odd number finder.')
+                        print("")#space
+
+                        here = int(input('From = '))
+                        to = int(input('To = '))
+                        to += 1
+                        print('')#space
+
+                        for i in range(here,to):
+                            if (i % 2 != 0):
+                                print(i)
+            case "2":
+                code12 = """
+                    case "1":
+                        print('Even number finder.')
+                        print("")#space
+
+                        here = int(input('From = '))
+                        to = int(input('To = '))
+                        to += 1
+                        print('')#space
+
+                        for i in range(here,to):
+                            if (i % 2 == 0):
+                                print(i)
+                    
+                    case "2":
+                        print('Odd number finder.')
+                        print("")#space
+
+                        here = int(input('From = '))
+                        to = int(input('To = '))
+                        to += 1
+                        print('')#space
+
+                        for i in range(here,to):
+                            if (i % 2 != 0):
+                                print(i)
+                        """
+                print(code12)
