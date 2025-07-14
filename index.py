@@ -5,9 +5,9 @@ print('  //    \\\   ||||||||                ')
 print(' //      \\\        ||                ')
 print('//        \\\ |||||||| Projects...    ')
 print('')#space
-print("All problems and solving of class ten text book. For any further info and any object cotact with AS PROJECTS. ")
+print("All problems and solving from class ten text book. For any further info and any complaint cotact with AS PROJECTS. ")
 print('')#space
-print("||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ")
+print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ")
 print('')#space
 
 print('Here are 17 projects from Text Book. Execute them, take a look at the script and try at your own...')
@@ -528,3 +528,62 @@ match proj:
                                 print(i)
                         """
                 print(code12)
+    case "13":
+        print('    1       ')
+        print('    1,2     ')
+        print('    1,2,3   ')
+        print("    1,2,3,4... this type of thing maker, don't know what it is :( ")
+        print('')#space
+        print('1. Execute the code. (Book code)')
+        print('2. Execute the code. (Optional code)')
+        print('3. Show the script.')
+        print('')#space
+        chos13 = input('Insert your Option : ')
+        print('')#space
+
+        match chos13:
+            case "1":
+                print('Here is the Book Code.')
+                print('')#space
+                
+                for i in range(1,10):
+                    for j in range(1,i+1):
+                        print(j,end="")
+                    print()
+            case "2":
+                print('Here is the Optional Code.')
+                print('')#space
+
+                rows = int(input('Rows = '))
+                rows += 1
+                print('')#space
+
+                for i in range(rows):
+                    for j in range(1,i+1):
+                        print(j,end="")
+                    print()
+            case "3":
+                code13_1 = """for i in range(1,10):
+                    for j in range(1,i+1):
+                        print(j,end="")
+                    print()
+                    """
+                code13_2 = """rows = int(input('Rows = '))
+                rows += 1
+                print('')#space
+
+                for i in range(rows):
+                    for j in range(1,i+1):
+                        print(j,end="")
+                    print()
+                    """
+                
+                print('Book Code :')
+                print('')#space
+                print(code13_1)
+                print('')#space
+                print('Optional Code :')
+                print('')#space
+                print(code13_2)
+
+                                   
