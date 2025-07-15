@@ -5,12 +5,12 @@ print('  //    \\\   ||||||||                ')
 print(' //      \\\        ||                ')
 print('//        \\\ |||||||| Projects...    ')
 print('')#space
-print("All problems and solving from class ten text book. For any further info and any complaint cotact with AS PROJECTS. ")
+print("A individual project of AS Roots.")
 print('')#space
-print("|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ")
+print("||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||")
 print('')#space
 
-print('Here are 17 projects from Text Book. Execute them, take a look at the script and try at your own...')
+print('Here are 17 projects on Python. Execute them, take a look at the script and try at your own...')
 print('')#space
 print(' 1. Sum of two numbers.')
 print(' 2. Pass-Fail identifier.')
@@ -586,4 +586,11 @@ match proj:
                 print('')#space
                 print(code13_2)
 
-                                   
+    case "14":
+        print('Multiplication table writer.')
+        print('')#space
+        print('1. Execute the code.')
+        print('2. Show the script.')
+        print('')#space
+        chos14 = input('Insert your Option : ')
+        print('')
