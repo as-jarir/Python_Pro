@@ -19,7 +19,7 @@ Beginner-Friendly: Problems are designed to be approachable for those new to pro
 Single File Structure: All problems are contained in one file, project.py, for simplicity.
 
 </p>
-
+<br>
 <p>
 
 Installation:
