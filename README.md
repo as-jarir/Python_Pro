@@ -5,13 +5,11 @@
 
 <h2>Features</h2>
 <p>
-    <ul>
-        
+    
 <li><b>17 Unique Problems :</b> Covers a range of topics including arithmetic operations, string manipulation, lists, dictionaries, loops, and functions.</li>
 <li><b>Commented Solutions :</b>  Each problem in project.py includes detailed comments explaining the logic and approach.</li>
 <li><b>Executable Code :</b>  Run project.py to interact with all 17 problems and see their outputs.</li>
 <li><b>Beginner-Friendly :</b>  Problems are designed to be approachable for those new to programming.</li>
 <li><b>Single File Structure :</b>  All problems are contained in one file, project.py, for simplicity.</li>
 
-    </ul>
 </p>
