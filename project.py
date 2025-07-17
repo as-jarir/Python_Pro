@@ -223,7 +223,7 @@ match proj:
 
                 if choice == 1:
                     feet = float(input('Enter your feet = '))
-                    result1 = feet/0.3048
+                    result1 = feet/3.281
                     print(result1)
                 elif choice == 2:
                     meter = float(input('Enter your meter = '))
