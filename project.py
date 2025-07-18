@@ -28,7 +28,7 @@ print('[13] 1'       )
 print('     1,2     ')
 print('     1,2,3   ')
 print("     1,2,3,4...  ")
-print("this type of thing maker, don't know what it is :(")
+print("     this type of thing maker, don't know what it is :(")
 print('[14] Multiplication table writer.')
 print('[15] Multiple writer using while loop.')
 print('[16] 1+2+3+.....+100 ,Sum counter.')
@@ -626,3 +626,14 @@ match proj:
                     print(num,"*",i," = ",result)
                     """
                 print(code14)
+                
+    case "15":
+        print('Multiple writer using while loop.')
+        print('')#space
+        print('1. Execute the code.')
+        print('2. Show the script.')
+        print('')#space
+        chos15 = input('Insert your Option : ')
+        print('')
+
+        
