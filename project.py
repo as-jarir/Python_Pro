@@ -636,4 +636,31 @@ match proj:
         chos15 = input('Insert your Option : ')
         print('')
 
-        
+        match chos15:
+            case "1":
+                print('Multiple writer using while loop.')
+                print('')#space
+
+                txt = str(input('What to write : '))
+                cnt = int(input('How many times = '))
+                print('')#space
+
+                i = 1
+                while i <= cnt:
+                    print(txt)
+                    cnt -= 1
+
+            case "2":
+                code15 = """print('Multiple writer using while loop.')
+                print('')#space
+
+                txt = str(input('What to write : '))
+                cnt = int(input('How many times = '))
+                print('')#space
+
+                i = 1
+                while i <= cnt:
+                    print(txt)
+                    cnt -= 1
+                    """
+                print(code15)
