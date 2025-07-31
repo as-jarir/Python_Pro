@@ -651,7 +651,9 @@ match proj:
                     cnt -= 1
 
             case "2":
-                code15 = """print('Multiple writer using while loop.')
+                code15 = """
+                
+                print('Multiple writer using while loop.')
                 print('')#space
 
                 txt = str(input('What to write : '))
@@ -664,3 +666,45 @@ match proj:
                     cnt -= 1
                     """
                 print(code15)
+
+    case "16":
+        print('1+2+3+.....+100 ,Sum counter.')
+        print('')#space
+        print('1. Execute the code.')
+        print('2. Show the script.')
+        print('')#space
+        chos16 = input('Insert your Option : ')
+        print('')
+
+        match chos16:
+            case "1":
+                print('1+2+3+.....+100 ,Sum counter.')
+                print('')#space
+
+                str = int(input('Start = '))
+                end = int(input('Stop = '))
+                print('')#space
+
+                sum = 0
+                while str <= end:
+                    sum += str
+                    str += 1
+                print('The sum of the value is',sum)
+
+            case "2":
+                code16 = """
+                
+                print('1+2+3+.....+100 ,Sum counter.')
+                print('')#space
+
+                str = int(input('Start = '))
+                end = int(input('Stop = '))
+                print('')#space
+
+                sum = 0
+                while str <= end:
+                    sum += str
+                    str += 1
+                print('The sum of the value is',sum)
+                """
+                print(code16)
