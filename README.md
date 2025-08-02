@@ -18,10 +18,10 @@
 
 <p>
 
-    <li>To download it you have to download <b>Git</b> into your pc.</li>
-    <li>Download <a href="https://git-scm.com/downloads">Git</a></li>
-    <li>Configure <b>Git</b>. Watch <a href="https://www.youtube.com/watch?v=AdzKzlp66sQ">This Video</a> if needed.</li>
-    <li>Clone <b>Code</b> from github.  </li>
+<li>To download it you have to download <b>Git</b> into your pc.</li>
+<li>Download <a href="https://git-scm.com/downloads">Git</a></li>
+<li>Configure <b>Git</b>. Watch <a href="https://www.youtube.com/watch?v=AdzKzlp66sQ">This Video</a> if needed.</li>
+<li>Clone <b>Code</b> from github.  </li>
 
 </p>
 <br>
@@ -29,12 +29,12 @@
 
 <p>
 
-    <li>Navigate to the folder <b>Python_Pro</b>. </li>
-    <li>Right click on Mouse.</li>
-    <li>Open <b>terminal</b> there.</li>
-    <li>Type <b>Python project.py</b> to execute the python file.</li>
-    <br>
-    Use Freely now!!!
+<li>Navigate to the folder <b>Python_Pro</b>. </li>
+<li>Right click on Mouse.</li>
+<li>Open <b>terminal</b> there.</li>
+<li>Type <b>Python project.py</b> to execute the python file.</li>
+<br>
+Use Freely now!!!
 
 
 </p>
