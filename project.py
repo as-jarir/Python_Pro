@@ -1,4 +1,4 @@
-print('')#space
+print('')
 print('    //\\\     ||||||||                ')
 print('   //  \\\    ||                      ')
 print('  //    \\\   ||||||||                ')
