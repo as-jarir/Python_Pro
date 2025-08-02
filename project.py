@@ -32,7 +32,7 @@ print("     this type of thing maker, don't know what it is :(")
 print('[14] Multiplication table writer.')
 print('[15] Multiple writer using while loop.')
 print('[16] 1+2+3+.....+100 ,Sum counter.')
-print('[17] leaving number writer.')
+print('[17] Writing rest of the number without decalred number.')
 print('')#space
 print('[18] Show script of this code.')
 print('')#space
@@ -561,7 +561,7 @@ match proj:
 
                 for i in range(rows):
                     for j in range(1,i+1):
-                        print(j,end="")
+                        print(j,end=" ")
                     print()
             case "3":
                 code13_1 = """for i in range(1,10):
@@ -708,3 +708,80 @@ match proj:
                 print('The sum of the value is',sum)
                 """
                 print(code16)
+
+    case "17":
+        print('Writing rest of the number without decalred number.')
+        print('')#space
+        print('1. Execute the code. (Book code)')
+        print('2. Execute the code. (Optional code)')
+        print('3. Show the script.')
+        print('')#space
+        chos17 = input('Insert your Option : ')
+        print('')
+
+        match chos17:
+            case "1":
+                print('Here is the book code.')
+                print('Writing rest of the number without number 4.')
+                print('')#space
+
+                for num in range(1,11):
+                    if num == 4:
+                        continue
+                    else:
+                        print(num,end="")
+                
+                print('\nUsed continue to stop printing the value 4.')
+
+            case "2":
+                print('Here is the optional code.')
+                print('Writing rest of the number without Your declared number.')
+                print('')#space
+
+                str = int(input('Start = '))
+                end = int(input('End = '))
+                print('')#space
+                Wt = int(input('Without = '))
+                print('')
+
+                end += 1
+
+                for i in range(str,end):
+                    if i == Wt:
+                        continue
+                    print(i,end=" ")
+            
+            case "3":
+                code17_1 = """
+
+                for num in range(1,11):
+                    if num == 4:
+                        continue
+                    else:
+                        print(num,end="")
+                
+                print('\nUsed continue to stop printing the value 4.')"""
+
+                code17_2 = """
+                
+                str = int(input('Start = '))
+                end = int(input('End = '))
+                print('')#space
+                Wt = int(input('Without = '))
+                print('')
+
+                end += 1
+
+                for i in range(str,end):
+                    if i == Wt:
+                        continue
+                    print(i,end=" ")"""
+                
+                print('Here is the book code :')
+                print(code17_1)
+                print('')
+                print('Here is the optional code :')
+                print(code17_2)
+
+    case "18":
+        print('Code will be updated. Soon!!!')
