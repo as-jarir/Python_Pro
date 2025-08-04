@@ -784,4 +784,4 @@ match proj:
                 print(code17_2)
 
     case "18":
-        print('Code will be updated. Soon!!!')
+        print('Code will be updated in future')
